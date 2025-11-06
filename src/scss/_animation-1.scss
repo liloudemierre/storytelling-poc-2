@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  height: 150vh;
+  width: 100vw;
+  overflow: hidden; /* évite les scrolls dégueux latéraux */
+}
+
+.block {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+}
+
+.title {
+  position: fixed;
+  color: rgb(255, 53, 194);
+  font-size: 100px;
+  margin: 20%;
+  text-align: center;
+}
