@@ -3,8 +3,8 @@ import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".block", {
-  x: "150vw",
-  y: "-150vh",
+  x: "270vw",
+  y: "-200vh",
   scrollTrigger: {
     trigger: ".container",
     markers: true,
